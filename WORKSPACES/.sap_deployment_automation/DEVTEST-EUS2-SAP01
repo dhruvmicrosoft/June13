@@ -1,0 +1,4 @@
+deployer_tfstate_key=MGMT-EUS2-DHRUV01-INFRASTRUCTURE.terraform.tfstate
+APPLICATION_CONFIGURATION_ID=/subscriptions/d6c8e3b6-467e-452e-97c9-49d9de9e37da/resourceGroups/MGMT-EUS2-DHRUV01-INFRASTRUCTURE/providers/Microsoft.AppConfiguration/configurationStores/mgmteus2apc1d0
+CONTROL_PLANE_NAME=MGMT-EUS2-DHRUV01
+landscape_tfstate_key=DEVTEST-EUS2-SAP01-INFRASTRUCTURE.terraform.tfstate
