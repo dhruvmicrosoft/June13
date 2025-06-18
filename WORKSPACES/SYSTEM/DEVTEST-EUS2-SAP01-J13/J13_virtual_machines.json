@@ -1,0 +1,4 @@
+{
+    "configurationType": "Discovery",
+    "centralServerVmId": "/subscriptions/d6c8e3b6-467e-452e-97c9-49d9de9e37da/resourceGroups/DEVTE-EUS2-SAP01-J13/providers/Microsoft.Compute/virtualMachines/DEVTE-EUS2-SAP01-J13_j13scs_z2_00l1dd"
+}

@@ -1,0 +1,83 @@
+J13_DB:
+  hosts:
+    j13dhdb00l01d:
+      ansible_host        : 10.110.96.5
+      remote_user         : azureadm
+      ansible_connection  : ssh
+      connection_type     : key
+      virtual_host        : j13dhdb00l01d
+      become_user         : root
+      os_type             : linux
+      vm_name             : DEVTE-EUS2-SAP01-J13_j13dhdb_z2_00l01dd
+      resource_group_name : DEVTE-EUS2-SAP01-J13
+      subscription_id     : d6c8e3b6-467e-452e-97c9-49d9de9e37da
+
+  vars:
+    node_tier             : hana
+    supported_tiers       : [hana]
+
+J13_SCS:
+  hosts:
+    j13scs00l1dd:
+      ansible_host        : 10.110.32.10
+      remote_user         : azureadm
+      ansible_connection  : ssh
+      connection_type     : key
+      virtual_host        : j13scs00l1dd
+      become_user         : root
+      os_type             : linux
+      vm_name             : DEVTE-EUS2-SAP01-J13_j13scs_z2_00l1dd
+      resource_group_name : DEVTE-EUS2-SAP01-J13
+      subscription_id     : d6c8e3b6-467e-452e-97c9-49d9de9e37da
+
+  vars:
+    node_tier             : scs
+    supported_tiers       : [scs]
+
+J13_ERS:
+  hosts:
+  vars:
+    node_tier             : ers
+    supported_tiers       : [ers]
+
+J13_PAS:
+  hosts:
+    j13app00l1dd:
+      ansible_host        : 10.110.32.9
+      remote_user         : azureadm
+      ansible_connection  : ssh
+      connection_type     : key
+      virtual_host        : j13app00l1dd
+      become_user         : root
+      os_type             : linux
+      vm_name             : DEVTE-EUS2-SAP01-J13_j13app_z2_00l1dd
+      resource_group_name : DEVTE-EUS2-SAP01-J13
+      subscription_id     : d6c8e3b6-467e-452e-97c9-49d9de9e37da
+
+  vars:
+    node_tier             : pas
+    supported_tiers       : [pas]
+
+J13_APP:
+  hosts:
+  vars:
+    node_tier             : app
+    supported_tiers       : [app]
+
+J13_WEB:
+  hosts:
+  vars:
+    node_tier             : web
+    supported_tiers       : [web]
+
+J13_OBSERVER_DB:
+  hosts:
+  vars:
+    node_tier             : observer
+    supported_tiers       : [observer]
+
+J13_ISCSI:
+  hosts:
+  vars:
+    node_tier             : iscsi
+    supported_tiers       : [iscsi]
